@@ -6,14 +6,22 @@ export const Footer = () => {
         <a
           className="underline font-bold"
           href="https://github.com/InfiniteMarcus"
-          target="__blank"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           InfiniteMarcus
         </a>
       </div>
       <div>
         Check the{" "}
-        <a className="underline font-bold" target="__blank" href="https://github.com/InfiniteMarcus/online-qrcode-generator">website source code here</a>
+        <a
+          className="underline font-bold"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/InfiniteMarcus/online-qrcode-generator"
+        >
+          website source code here
+        </a>
       </div>
     </footer>
   );
